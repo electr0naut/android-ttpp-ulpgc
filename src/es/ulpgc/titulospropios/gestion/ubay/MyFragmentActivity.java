@@ -23,7 +23,7 @@ public class MyFragmentActivity extends FragmentActivity {
 
 		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
 		mActivity = this;
-		alertDialogBuilder.setTitle(R.string.error_period);
+		alertDialogBuilder.setTitle(R.string.id);
 
 		alertDialogBuilder
 				.setMessage(id)
