@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/lightblue_border" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/incomeTab"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/title_incomeRegistration"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/first_row"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/second_row"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/students_sum"
+                layout="@layout/two_items_4_to1"
+                android:background="@null" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/title_directIncome"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/direct_income_row"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

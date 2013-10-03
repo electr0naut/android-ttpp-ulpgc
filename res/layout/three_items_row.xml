@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:baselineAligned="false"
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal" 
+    	android:background="@drawable/blue_border" >
+    <include android:id="@+id/left_item" android:layout_weight="90" layout="@layout/info_cell"/>
+    <include android:layout_weight="1" layout="@layout/divider"/>
+    <include android:id="@+id/center" android:layout_weight="90" layout="@layout/info_cell"/>
+    <include android:layout_weight="1" layout="@layout/divider"/>
+    <include android:id="@+id/right_item" android:layout_weight="90" layout="@layout/info_cell"/>
+</LinearLayout> 

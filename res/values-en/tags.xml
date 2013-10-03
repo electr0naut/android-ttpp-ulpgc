@@ -1,0 +1,273 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="informacion_academica">
+        <item>Denomination: </item>
+        <item>Branch of knowledge: </item>
+        <item>Kind of studies: </item>
+        <item>Proposal state: </item>
+        <item>Edition number: </item>
+        <item>Code: </item>
+        <item>Proposer: </item>
+        <item>Start of lectures: </item>
+        <item>End of lectures: </item>
+        <item>Academic management units: </item>
+        <item>Place of teaching: </item>
+        <item>Manager: </item>
+        <item>Institution representative: </item>
+        <item>Head office: </item>
+        <item>Evaluated by ACECAU: </item>
+        <item>Competences: </item>
+        <item>Competences justification: </item>
+        <item>Expected results: </item>
+        <item>Resources availables: </item>
+        <item>Id</item>
+    </string-array>
+    <string-array name="subject_forAdapter">
+        <item>&lt;b&gt;Year: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Semester: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Starts: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Ends: &lt;/b&gt;</item>
+        <item>&lt;b&gt;ECTS Credits: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Type of subject: &lt;/b&gt;</item>
+    </string-array>
+    <string-array name="subject_types">
+        <item>Core </item>
+        <item>Mandatory </item>
+        <item>Elective </item>
+        <item>External internship </item>
+        <item>Final thesis </item>
+        <item>Mixed </item>
+    </string-array>
+    <string-array name="completeSubjectTags">
+        <item>Name</item>
+        <item>Year</item>
+        <item>Semester</item>
+        <item>Type of subject</item>
+        <item>ECTS Credits</item>
+        <item>Starts</item>
+        <item>Ends</item>
+        <item>Branch of knowledge</item>
+        <item>Mode</item>
+        <item>Created</item>
+        <item>Updated</item>
+        <item>Theory classes</item>
+        <item>Practical classes</item>
+        <item>Seminars</item>
+        <item>External internships</item>
+        <item>Evaluation tests</item>
+        <item>Final thesis</item>
+        <item>Student study hours</item>
+        <item>Total amount of hours</item>
+        <item>Competences</item>
+        <item>Activities</item>
+        <item>Content description</item>
+        <item>Evaluation system</item>
+    </string-array>
+    <string-array name="branchKnowledge">
+        <item>Arts and humanities</item>
+        <item>Science</item>
+        <item>Social sciences and Law</item>
+        <item>Health sciences</item>
+        <item>Engineering and architecture</item>
+    </string-array>
+    <string-array name="branchKnowledgeComplete">
+        <item>Branch of knowledge</item>
+        <item>Arts and humanities</item>
+        <item>Science</item>
+        <item>Social sciences and Law</item>
+        <item>Health sciences</item>
+        <item>Engineering and architecture</item>
+    </string-array>
+    <string-array name="teachingMode">
+        <item>&lt;br&gt;In-person class</item>
+        <item>&lt;br&gt;Distance learning </item>
+    </string-array>
+    <string-array name="teachingModeComplete">
+        <item>Teaching mode</item>
+        <item>In-person class</item>
+        <item>Mixed teaching mode </item>
+        <item>Distance learning </item>
+    </string-array>
+    <string-array name="orientedTo">
+        <item>Oriented to</item>
+        <item>General public</item>
+        <item>Teachers</item>
+        <item>Administration and service personnel</item>
+    </string-array>
+    <string-array name="teacher_forAdapter">
+        <item>&lt;b&gt;Origin:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;State:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Last notification:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Amount of notifications:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Degree:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;E-mail:&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="info_generica_profesores">
+        <item>&lt;b&gt;Degree:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;E-mail:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Branch of knowledge:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Professional category:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;ULPGC graduate:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;ULPGC Department:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Institution:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Active:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Curriculum Vitae:&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="overviewExpenses">
+        <item>&lt;b&gt;Income total&lt;/b&gt;</item>
+        <item>&lt;b&gt;Parcial expenses amount&lt;/b&gt;</item>
+        <item>&lt;b&gt;ULPGC compensation (5%)&lt;/b&gt;</item>
+        <item>&lt;b&gt;Institution compensation (5%)&lt;/b&gt;</item>
+        <item>&lt;b&gt;Economic manager compensation (5%)&lt;/b&gt;</item>
+        <item>&lt;b&gt;Expenses total&lt;/b&gt;</item>
+        <item>&lt;b&gt;Balance&lt;/b&gt;</item>
+    </string-array>
+    <string-array name="incomeTags">
+        <item>&lt;b&gt;Amount of scholarships&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Price&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Amount of full price students &lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Price&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;External income&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Income total&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="expensesTags">
+        <item>&lt;b&gt;Teaching hours&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Seminar hours&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Lab hours&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Evaluation hours&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Content creation&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per credit&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;In-person tutorships and final project related&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per project&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Final project evaluation tribunals&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per tribunal&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Exam coordination&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per exam&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Directors&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;ULPGC teachers cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Organizing unit profit&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;ULPGC teachers gross income&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Teaching hours&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Seminar hours&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Lab hours&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Evaluation hours&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per hour&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Content creation&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost per credit&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;In-person tutorships and final project related&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per project&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Final project evaluation tribunals&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per tribunal&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Exam coordination&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost per exam&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Others&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;External teachers expense&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Administrative support personnel&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Interns&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Specific purpose interns&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Other kind of personnel&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Presentation report&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Final report&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Information point&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;External support services&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Others&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Teachers transportation&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Teachers accomodation&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Incoming teachers provision&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Intern students support&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Other expenses&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Locomotions costs&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Office supplies&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Lab supplies&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Non-inventoried computer supplies&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Reprography&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Others&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Equipment expenses&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Bibliography&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Others&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Bibliography expenses&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Printed materials&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Advertising in press and other ways&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Advertising expenses&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Opening/Closing ceremonies&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Simultaneous translation&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Certificates&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Mandatory insurance&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Quality assessment by an external entity&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Virtual campus&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Others&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Other expenses section&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Added expenses&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+
+</resources>

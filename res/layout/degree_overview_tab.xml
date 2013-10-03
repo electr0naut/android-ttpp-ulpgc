@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/lightblue_border" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blue_border"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/final_budget"
+            android:textStyle="bold" />
+
+        <include
+            android:id="@+id/incomes_total"
+            layout="@layout/two_items_4_to1" />
+
+        <include
+            android:id="@+id/parcial_cost"
+            layout="@layout/two_items_4_to1" />
+
+        <include
+            android:id="@+id/ulpgc_compensation"
+            layout="@layout/two_items_4_to1" />
+
+        <include
+            android:id="@+id/institute_compensation"
+            layout="@layout/two_items_4_to1" />
+
+        <include
+            android:id="@+id/manager_compensation"
+            layout="@layout/two_items_4_to1" />
+
+        <include
+            android:id="@+id/total"
+            layout="@layout/two_items_4_to1" />
+
+        <include
+            android:id="@+id/balance"
+            layout="@layout/two_items_4_to1"
+            android:background="@null" />
+    </LinearLayout>
+
+</ScrollView>

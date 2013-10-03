@@ -1,0 +1,26 @@
+<resources>
+	    <string-array name="degree_types">
+	        <item>Kind of degree</item>
+	        <item>Elemental Own Degree</item>
+	        <item>Post-Elemental Own Degree</item>
+	        <item>Expert</item>
+	        <item>Mastery</item>
+	        <item>Professional Diploma</item>
+	    </string-array>
+	    <string-array name="degree_states">
+	        <item>Degree state</item>
+	        <item>Draft</item>
+	        <item>Sent</item>
+	        <item>Rejected</item>
+	        <item>Approved</item>
+	        <item>Correction Period</item>
+	        <item>Canceled</item>
+	    </string-array>
+	    <string-array name="degree_editions">	
+			<item>Starting academic year</item>
+<!-- 		<item>2014/2015</item> -->			
+			<item>2013/2014</item>
+			<item>2012/2013</item>			
+			<item>2011/2012</item>			
+		</string-array>			
+</resources>	   

@@ -1,0 +1,396 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightblue_border"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/title_expenditures"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ulpgc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/title_ULPGCteacherExpenditures"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/teory_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/practice_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/seminars_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/exams_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/content_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/tutorship_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/final_project_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/exam_coordinator_ulpgc"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/directors"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/cost_sum"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/unit_profit"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/cost_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/external_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/title_ExternalteacherExpenditures"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/teory"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/practice"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/seminars"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/exams"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/content"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/tutorship"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/final_project"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/exam_coordinator"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/others_external"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/external_cost_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/admin_costs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/admin_support"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/staff"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/scholarship_students"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/scholarship_specific"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/other_staff"
+                layout="@layout/three_items_row" />
+
+            <include
+                android:id="@+id/presentation_report"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/final_report"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/information_point"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/support"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/other_support"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/travel_n_accomodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/travel_accomodation"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/travel_cost"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/hosting_cost"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/food_cost"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/scholarship_grant"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/other_travelcost"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/travel_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/materials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/fungible"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/office_material"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/lab_material"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/non_inventary"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/reprography"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/other_material"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/fungible_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bibliog_costs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/bibliography"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/bibliography_cost"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/other_bibliography"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/bibliography_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/press_costs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/ads"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/print_ads"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/press_ads"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/ads_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/other_costs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/other_expenditures"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/inauguration"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/translation"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/certs"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/virtual_campus"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/evaluation"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/insurance"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/other_other"
+                layout="@layout/two_items_4_to1" />
+
+            <include
+                android:id="@+id/others_total"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/total_expenses"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/total_expenses"
+                layout="@layout/two_items_4_to1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

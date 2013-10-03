@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colours"
+    android:orientation="vertical"
+    tools:context=".SingleDegreeMain" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="academicInfo"
+        android:text="@string/academic_info"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="subjectsInfo"
+        android:text="@string/subjects"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="teachersInfo"
+        android:text="@string/teachers"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="economicInfo"
+        android:text="@string/economic_info"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="reportInfo"
+        android:text="@string/report"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="sendDegreeToEvaluate"
+        android:text="@string/send_to_evaluate"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="downloadDegree"
+        android:text="@string/download_degree"
+        android:textStyle="bold" />
+</LinearLayout>

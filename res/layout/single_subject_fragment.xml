@@ -1,0 +1,327 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_colours" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/blue_border"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/title_generalInfo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout0"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/branch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/teaching_mode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/edition"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/start_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/end_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout3"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout4"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/units"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/teachingPlace"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/title_hourDistribution"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout_"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/class_hours"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/institutionRepresentative"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/manager"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/misc_activities_hours"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/headquarters"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout7"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/exams_hours"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/final_work_hours"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout8"
+            android:background="@drawable/blue_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/studying_hours"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#3A4978" />
+
+            <TextView
+                android:id="@+id/hours_sum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearLayout9"
+            android:orientation="vertical"
+            android:paddingTop="7dp" >
+
+            <TextView
+                android:id="@+id/competences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border" />
+
+            <TextView
+                android:id="@+id/activities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border" />
+
+            <TextView
+                android:id="@+id/assesment_system"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

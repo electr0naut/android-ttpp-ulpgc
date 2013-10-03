@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightblue_border"
+    android:baselineAligned="false"
+    android:weightSum="3"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/single_degree_menu_fragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="es.ulpgc.titulospropios.gestion.ubay.DegreeMainMenuFragment" />
+
+    <FrameLayout
+        android:id="@+id/central_fragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/lateral_fragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    
+    <FrameLayout
+        android:id="@+id/full_screen_fragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="0" />    
+
+</LinearLayout>

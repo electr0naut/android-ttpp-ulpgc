@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colours"
+    android:orientation="vertical"
+    tools:context=".SelectTask" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="newProposal"
+        android:text="@string/new_proposal"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="exploreProposals"
+        android:text="@string/explore_proposals"
+        android:textStyle="bold" />
+</LinearLayout>

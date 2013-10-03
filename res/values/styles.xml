@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppBase" parent="android:Theme.Light"></style>
+
+    <style name="MyTheme" parent="android:Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">#FFFFFF</item>
+        <item name="android:bottomDark">#FFFFFF</item>
+        <item name="android:bottomMedium">#FFFFFF</item>
+        <item name="android:centerBright">#FFFFFF</item>
+        <item name="android:centerDark">#FFFFFF</item>
+        <item name="android:centerMedium">#FFFFFF</item>
+        <item name="android:fullBright">#FFFFFF</item>
+        <item name="android:fullDark">#FFFFFF</item>
+        <item name="android:topBright">#FFFFFF</item>
+        <item name="android:topDark">#FFFFFF</item>
+    </style>
+
+</resources>

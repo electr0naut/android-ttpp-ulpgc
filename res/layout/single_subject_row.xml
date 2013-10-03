@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colours"
+    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/button_subject"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+		    android:background="@drawable/mybutton_layout"
+	        android:onClick="singleSubject"/>
+		<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal" 
+		    android:background="@drawable/blue_border" >
+		    <TextView
+		        android:id="@+id/textView_subject_course"
+		        android:layout_height="wrap_content"
+		        android:layout_width="0dp"
+		        android:layout_weight="90" />
+			<View   android:id="@+id/firstDivider"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:layout_width="1dp"
+			        android:background="#3A4978" />	
+		    <TextView
+		        android:id="@+id/textView_subject_semester"
+		        android:layout_height="wrap_content"
+		        android:layout_width="0dp"
+		        android:layout_weight="90" />
+			</LinearLayout>
+		<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+    		android:orientation="horizontal" 
+		    android:background="@drawable/blue_border" >		    
+		    <TextView
+		        android:layout_height="wrap_content"
+		        android:id="@+id/textView_subject_kind"
+		        android:layout_width="0dp"
+		        android:layout_weight="90"/>
+			<View   android:id="@+id/secondDivider"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:layout_width="1dp"
+			        android:background="#3A4978" />	
+		    <TextView
+		        android:layout_height="match_parent"
+		        android:id="@+id/textView_subject_ects"
+		        android:layout_width="0dp"
+		        android:layout_weight="90"/>
+		</LinearLayout>
+		<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+    		android:orientation="horizontal" 
+		    android:background="@drawable/blue_border" >		    
+		    <TextView
+		        android:id="@+id/textView_subject_starts"
+		        android:layout_height="wrap_content"
+		        android:layout_width="0dp"
+		        android:layout_weight="90"/>
+			<View   android:id="@+id/thirdDivider"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:layout_width="1dp"
+			        android:background="#3A4978" />			    
+		    <TextView
+		        android:id="@+id/textView_subject_ends"
+		        android:layout_height="match_parent"
+		        android:layout_width="0dp"
+		        android:layout_weight="90"/>
+		</LinearLayout>	
+</LinearLayout>

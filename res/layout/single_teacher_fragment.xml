@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_colours" >
+
+    <LinearLayout
+        android:id="@+id/base_teacherlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/teacher_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/blue_border"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <include
+            android:id="@+id/first_row"
+            layout="@layout/row_layout" />
+
+        <include
+            android:id="@+id/second_row"
+            layout="@layout/row_layout" />
+
+        <include
+            android:id="@+id/third_row"
+            layout="@layout/row_layout" />
+
+        <include
+            android:id="@+id/fourth_row"
+            layout="@layout/row_layout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cv_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="desc">Logo ULPGC</string>
+    <string name="ok">OK</string>
+    <string name="globalState">Singleton HTTP Connection</string>
+    <string name="vertodos">Ver Todos</string>
+    <string name="background">Imagen de fondo</string>
+    <string name="local_emul_addr">http://10.0.2.2:3000/"</string>
+    <string name="local_phone_addr">http://10.230.156.51:3000/"</string>
+    <string name="test_env_addr">https://titulospropios-desa.ulpgc.es/"</string>
+    <string name="production_addr">https://gestion.titulospropios.ulpgc.es/</string>
+    <string name="footer_subject_message">Cargando más profesores de la propuesta</string>
+
+</resources>

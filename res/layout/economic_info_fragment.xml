@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightblue_border"
+    android:orientation="vertical"
+    tools:context=".SingleDegreeMain" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="overview"
+        android:text="@string/overviewTab"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="income"
+        android:text="@string/incomeTab"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton_layout"
+        android:gravity="center"
+        android:onClick="expenditure"
+        android:text="@string/expensesTab"
+        android:textStyle="bold" />
+
+</LinearLayout>

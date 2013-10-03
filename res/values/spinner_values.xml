@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	    <string-array name="degree_types">
+	        <item>Tipo de título</item>
+	        <item>Enseñanza Propia Básica</item>
+	        <item>Enseñanza Propia Superior</item>
+	        <item>Experto</item>
+	        <item>Maestría</item>
+	        <item>Diploma Profesional</item>
+	    </string-array>
+	    <string-array name="degree_states">
+	        <item>Estado del título</item>
+	        <item>Borrador</item>
+	        <item>Enviado</item>
+	        <item>Rechazado</item>
+	        <item>Aprobado</item>
+	        <item>En subsanación</item>
+	        <item>Cancelado</item>
+	    </string-array>
+	    <string-array name="original_tags_degree_states">
+	        <item>Estado del título</item>
+	        <item>borrador</item>
+	        <item>enviado</item>
+	        <item>rechazado</item>
+	        <item>aprobado</item>
+	        <item>subsanacion</item>
+	        <item>cancelado</item>
+	    </string-array>	    
+	    <string-array name="degree_editions">	
+			<item>Año de inicio</item>
+<!-- 		<item>2014/2015</item> -->			
+			<item>2013/2014</item>
+			<item>2012/2013</item>			
+			<item>2011/2012</item>			
+		</string-array>			
+</resources>	    

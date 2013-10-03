@@ -1,0 +1,195 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_colours" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="16" >
+
+        <TextView
+            android:id="@+id/period"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/blue_border"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/degree_denomination"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:hint="@string/degree_denomination" />
+
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/grey_buttons"
+            android:prompt="@string/tipo" />
+
+        <Spinner
+            android:id="@+id/mode_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/grey_buttons"
+            android:prompt="@string/mode" />
+
+        <Spinner
+            android:id="@+id/oriented_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/grey_buttons"
+            android:prompt="@string/oriented" />
+
+        <Spinner
+            android:id="@+id/knowledge_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/grey_buttons"
+            android:prompt="@string/knowledge_branch" />
+
+        <EditText
+            android:id="@+id/degree_academic_director"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/degree_academic_director"
+            android:imeOptions="actionNext"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/degree_proposed_by"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/degree_proposed_by"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/degree_units"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/degree_units"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/degree_min_alumns"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="@string/degree_min_alumns"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/degree_max_alumns"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="@string/degree_max_alumns"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/degree_min_credits"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="@string/degree_min_credits"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/degree_economic_manager"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/degree_economic_manager"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/degree_competences"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:hint="@string/degree_competences"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences|textMultiLine" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="@string/institutions"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/institutions_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/grey_buttons"
+            android:prompt="@string/institutions" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="@string/teaching_address"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/teaching_address"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:hint="@string/teaching_address"
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences|textMultiLine" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="@string/teaching_outside"
+            android:textStyle="bold" />        
+        
+        <CheckBox
+            android:id="@+id/teaching_outside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>        
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/grey_buttons"
+            android:onClick="sendNewProposal"
+            android:text="@string/send"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</ScrollView>

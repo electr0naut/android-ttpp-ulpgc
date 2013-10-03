@@ -1,0 +1,1021 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="academic_info">
+        <item>name</item>
+        <item>branch-of-knowledge-id</item>
+        <item>degree-type-id</item>
+        <item>state</item>
+        <item>edition-number</item>
+        <item>code</item>
+        <item>proposed-by</item>
+        <item>lectures-start</item>
+        <item>lectures-end</item>
+        <item>academic-management-units</item>
+        <item>teaching-place</item>
+        <item>administrator</item>
+        <item>institution-representative</item>
+        <item>head-office</item>
+        <item>evaluated-by-acecau-at</item>
+        <item>competences</item>
+        <item>justify-competences</item>
+        <item>expected-results</item>
+        <item>material-resources</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="informacion_academica">
+        <item>Denominación: </item>
+        <item>Rama de Conocimiento: </item>
+        <item>Tipo de enseñanza: </item>
+        <item>Estado de la propuesta: </item>
+        <item>Número de edición: </item>
+        <item>Código: </item>
+        <item>Proponente: </item>
+        <item>Inicio de las enseñanzas: </item>
+        <item>Fin de las enseñanzas: </item>
+        <item>Unidades participantes: </item>
+        <item>Lugar de impartición: </item>
+        <item>Gestor: </item>
+        <item>Representante del centro: </item>
+        <item>Sede de la organización: </item>
+        <item>Evaluado por acecau en: </item>
+        <item>Competencias: </item>
+        <item>Justificación de competencias: </item>
+        <item>Resultados esperados: </item>
+        <item>Recursos disponibles: </item>
+        <item>Id</item>
+    </string-array>
+    <string-array name="subject_forAdapter">
+        <item>&lt;b&gt;Curso: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Semestre: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Inicio: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Fin: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Créditos ECTS: &lt;/b&gt;</item>
+        <item>&lt;b&gt;Tipo de asignatura: &lt;/b&gt;</item>
+    </string-array>
+    <string-array name="subject_types">
+        <item>Troncal </item>
+        <item>Obligatoria </item>
+        <item>Optativa </item>
+        <item>Prácticas Externas </item>
+        <item>Trabajo de fin de título </item>
+        <item>Mixto </item>
+    </string-array>
+    <string-array name="teacher_forAdapter">
+        <item>&lt;b&gt;Procedencia:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Estado:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Última notificación:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Número de notificaciones:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Titulación:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;E-mail:&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="branchKnowledge">
+        <item>Arte y humanidades</item>
+        <item>Ciencias</item>
+        <item>Ciencias sociales y jurídicas</item>
+        <item>Ciencias de la salud</item>
+        <item>Ingeniería y arquitectura</item>
+    </string-array>
+    <string-array name="branchKnowledgeComplete">
+        <item>Rama de conocimiento</item>
+        <item>Arte y humanidades</item>
+        <item>Ciencias</item>
+        <item>Ciencias sociales y jurídicas</item>
+        <item>Ciencias de la salud</item>
+        <item>Ingeniería y arquitectura</item>
+    </string-array>
+    <string-array name="teachingMode">
+        <item>Presencial</item>
+        <item>No-Presencial</item>
+    </string-array>
+    <string-array name="orientedTo">
+        <item>Dirigido a</item>
+        <item>Público en general</item>
+        <item>Docentes</item>
+        <item>Personal de administración y servicios</item>
+    </string-array>
+    <string-array name="teachingModeComplete">
+        <item>Modalidad de enseñanza</item>
+        <item>Presencial</item>
+        <item>Semi-Presencial</item>
+        <item>No-Presencial</item>
+    </string-array>
+    <string-array name="ulpgc_teachers">
+        <item>ulpgc-teaching-hours-qty</item>
+        <item>ulpgc-teaching-hours-cost</item>
+        <item>ulpgc-teaching-hours-sum</item>
+        <item>ulpgc-practice-hours-qty</item>
+        <item>ulpgc-practice-hours-cost</item>
+        <item>ulpgc-practice-hours-sum</item>
+        <item>ulpgc-seminar-hours-qty</item>
+        <item>ulpgc-seminar-hours-cost</item>
+        <item>ulpgc-seminar-hours-sum</item>
+        <item>ulpgc-evaluation-hours-qty</item>
+        <item>ulpgc-evaluation-hours-cost</item>
+        <item>ulpgc-evaluation-hours-sum</item>
+        <item>ulpgc-content-credits-qty</item>
+        <item>ulpgc-content-credits-cost</item>
+        <item>ulpgc-content-credits-sum</item>
+        <item>ulpgc-tutorship-jobs-qty</item>
+        <item>ulpgc-tutorship-jobs-cost</item>
+        <item>ulpgc-tutorship-jobs-sum</item>
+        <item>ulpgc-boards-qty</item>
+        <item>ulpgc-boards-cost</item>
+        <item>ulpgc-boards-sum</item>
+        <item>ulpgc-exams-coordination-qty</item>
+        <item>ulpgc-exams-coordination-cost</item>
+        <item>ulpgc-exams-coordination-sum</item>
+    </string-array>
+    <string-array name="external_teachers">
+        <item>teaching-hours-qty</item>
+        <item>teaching-hours-cost</item>
+        <item>teaching-hours-sum</item>
+        <item>seminar-hours-qty</item>
+        <item>seminar-hours-cost</item>
+        <item>seminar-hours-sum</item>
+        <item>practice-hours-qty</item>
+        <item>practice-hours-cost</item>
+        <item>practice-hours-sum</item>
+        <item>evaluation-hours-qty</item>
+        <item>evaluation-hours-cost</item>
+        <item>evaluation-hours-sum</item>
+        <item>content-credits-qty</item>
+        <item>content-credits-cost</item>
+        <item>content-credits-sum</item>
+        <item>tutorship-jobs-qty</item>
+        <item>tutorship-jobs-cost</item>
+        <item>tutorship-jobs-sum</item>
+        <item>boards-qty</item>
+        <item>boards-cost</item>
+        <item>boards-sum</item>
+        <item>exams-coordination-qty</item>
+        <item>exams-coordination-cost</item>
+        <item>exams-coordination-sum</item>
+    </string-array>
+    <string-array name="ulpgc_extra">
+        <item>ulpgc-managers-cost</item>
+        <item>ulpgc-teachers-cost-sum</item>
+        <item>ulpgc-teachers-unit-profit</item>
+        <item>ulpgc-teachers-gross</item>
+    </string-array>
+    <string-array name="teacher_hours">
+        <item>&lt;b&gt;Horas de docencia teórica&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Horas de prácticas&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Horas de seminario&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Horas de evaluación&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Elaboración de manuales docentes&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por crédito&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Tutorías presenciales y de trabajos finales&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por proyecto&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Tribunales para valoración de trabajos finales&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por tribunal&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coordinación de exámenes&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por examen&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="extra_ulpgc">
+        <item>&lt;b&gt;Directores&lt;/b&gt;</item>
+        <item>&lt;b&gt;Coste total de profesorado de la ULPGC&lt;/b&gt;</item>
+        <item>&lt;b&gt;Beneficios para la unidad organizadora&lt;/b&gt;</item>
+        <item>&lt;b&gt;Total retribución bruta a profesorado de la ULPGC&lt;/b&gt;</item>
+    </string-array>
+    <string-array name="admin_costs">
+        <item>admin-staff-qty</item>
+        <item>admin-staff-cost</item>
+        <item>admin-staff-sum</item>
+        <item>scholar-qty</item>
+        <item>scholar-cost</item>
+        <item>scholar-sum</item>
+        <item>specific-scholar-qty</item>
+        <item>specific-scholar-cost</item>
+        <item>specific-scholar-sum</item>
+        <item>other-staff-qty</item>
+        <item>other-staff-cost</item>
+        <item>other-staff-sum</item>
+    </string-array>
+    <string-array name="coste_administracion">
+        <item>&lt;b&gt;Personal administrativo de apoyo&lt;/b&gt;</item>
+        <item>&lt;b&gt;Retribución&lt;/b&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;</item>
+        <item>&lt;b&gt;Becarios de colaboración&lt;/b&gt;</item>
+        <item>&lt;b&gt;Retribución&lt;/b&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;</item>
+        <item>&lt;b&gt;Becarios específicos&lt;/b&gt;</item>
+        <item>&lt;b&gt;Retribución&lt;/b&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;</item>
+        <item>&lt;b&gt;Otro tipo de personal&lt;/b&gt;</item>
+        <item>&lt;b&gt;Retribución&lt;/b&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;</item>
+    </string-array>
+    <string-array name="economic_info">
+        <item>granted-students-qty</item>
+        <item>granted-students-quota</item>
+        <item>regular-students-qty</item>
+        <item>regular-students-quota</item>
+        <item>external-incomes-sum</item>
+        <item>incomes-sum</item>
+        <item>ulpgc-teaching-hours-qty</item>
+        <item>ulpgc-teaching-hours-cost</item>
+        <item>ulpgc-teaching-hours-sum</item>
+        <item>ulpgc-seminar-hours-qty</item>
+        <item>ulpgc-seminar-hours-cost</item>
+        <item>ulpgc-seminar-hours-sum</item>
+        <item>ulpgc-practice-hours-qty</item>
+        <item>ulpgc-practice-hours-cost</item>
+        <item>ulpgc-practice-hours-sum</item>
+        <item>ulpgc-evaluation-hours-qty</item>
+        <item>ulpgc-evaluation-hours-cost</item>
+        <item>ulpgc-evaluation-hours-sum</item>
+        <item>ulpgc-content-credits-qty</item>
+        <item>ulpgc-content-credits-cost</item>
+        <item>ulpgc-content-credits-sum</item>
+        <item>ulpgc-tutorship-jobs-qty</item>
+        <item>ulpgc-tutorship-jobs-cost</item>
+        <item>ulpgc-tutorship-jobs-sum</item>
+        <item>ulpgc-boards-qty</item>
+        <item>ulpgc-boards-cost</item>
+        <item>ulpgc-boards-sum</item>
+        <item>ulpgc-exams-coordination-qty</item>
+        <item>ulpgc-exams-coordination-cost</item>
+        <item>ulpgc-exams-coordination-sum</item>
+        <item>ulpgc-managers-qty</item>
+        <item>ulpgc-managers-cost</item>
+        <item>ulpgc-teachers-cost-sum</item>
+        <item>ulpgc-teachers-unit-profit</item>
+        <item>ulpgc-teachers-gross</item>
+        <item>teaching-hours-qty</item>
+        <item>teaching-hours-cost</item>
+        <item>teaching-hours-sum</item>
+        <item>seminar-hours-qty</item>
+        <item>seminar-hours-cost</item>
+        <item>seminar-hours-sum</item>
+        <item>practice-hours-qty</item>
+        <item>practice-hours-cost</item>
+        <item>practice-hours-sum</item>
+        <item>evaluation-hours-qty</item>
+        <item>evaluation-hours-cost</item>
+        <item>evaluation-hours-sum</item>
+        <item>content-credits-qty</item>
+        <item>content-credits-cost</item>
+        <item>content-credits-sum</item>
+        <item>tutorship-jobs-qty</item>
+        <item>tutorship-jobs-cost</item>
+        <item>tutorship-jobs-sum</item>
+        <item>boards-qty</item>
+        <item>boards-cost</item>
+        <item>boards-sum</item>
+        <item>exams-coordination-qty</item>
+        <item>exams-coordination-cost</item>
+        <item>exams-coordination-sum</item>
+        <item>teachers-misc-cost</item>
+        <item>teachers-misc-description</item>
+        <item>teachers-cost-sum</item>
+        <item>admin-staff-qty</item>
+        <item>admin-staff-cost</item>
+        <item>admin-staff-sum</item>
+        <item>admin-support-misc-cost</item>
+        <item>admin-support-misc-description</item>
+        <item>scholar-qty</item>
+        <item>scholar-cost</item>
+        <item>scholar-sum</item>
+        <item>specific-scholar-qty</item>
+        <item>specific-scholar-cost</item>
+        <item>specific-scholar-sum</item>
+        <item>other-staff-qty</item>
+        <item>other-staff-cost</item>
+        <item>other-staff-sum</item>
+        <item>presentation-report-cost</item>
+        <item>final-report-cost</item>
+        <item>information-point-cost</item>
+        <item>support-services-description</item>
+        <item>support-services-cost</item>
+        <item>admin-support-misc-description</item>
+        <item>admin-support-misc-cost</item>
+        <item>locomotion-cost</item>
+        <item>accommodation-cost</item>
+        <item>maintenance-cost</item>
+        <item>students-in-practice-cost</item>
+        <item>other-locomotion-cost</item>
+        <item>locomotion-sum</item>
+        <item>office-goods-cost</item>
+        <item>lab-goods-cost</item>
+        <item>computer-goods-cost</item>
+        <item>reprographics-cost</item>
+        <item>financial-goods-misc-cost</item>
+        <item>financial-goods-sum</item>
+        <item>bibliography-cost</item>
+        <item>other-bibliography-cost</item>
+        <item>bibliography-sum</item>
+        <item>printed-advertising-cost</item>
+        <item>media-advertising-cost</item>
+        <item>advertising-sum</item>
+        <item>opening-closure-cost</item>
+        <item>translation-cost</item>
+        <item>certificates-cost</item>
+        <item>Seguro Obligatorio: 15€ por alumno</item>
+        <item>Evaluación del título por agencia externa: 550€</item>
+        <item>virtual-campus-cost</item>
+        <item>misc-misc-cost</item>
+        <item>other-costs-sum</item>
+        <item>partial-expenses-sum</item>
+        <item>ulpgc-compensation</item>
+        <item>institution-compensation</item>
+        <item>administrator-compensation</item>
+        <item>expenses-sum</item>
+        <item>sum</item>
+        <item>university-specific-degree-id</item>
+    </string-array>
+    <string-array name="overview">
+        <item>incomes-sum</item>
+        <item>partial-expenses-sum</item>
+        <item>ulpgc-compensation</item>
+        <item>institution-compensation</item>
+        <item>administrator-compensation</item>
+        <item>expenses-sum</item>
+        <item>sum</item>
+    </string-array>
+    <string-array name="incomes">
+        <item>granted-students-qty</item>
+        <item>granted-students-quota</item>
+        <item>regular-students-qty</item>
+        <item>regular-students-quota</item>
+        <item>external-incomes-sum</item>
+        <item>incomes-sum</item>
+    </string-array>
+    <string-array name="incomeTags">
+        <item>&lt;b&gt;Número de estudiantes becados&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Precio de matrícula&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Número de estudiantes sin beca&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Precio de matrícula&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Ingresos externos&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Ingresos totales&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="informacion_economica">
+        <item>Número de estudiantes becados</item>
+        <item>Precio de matrícula</item>
+        <item>Número de estudiantes sin beca</item>
+        <item>Precio de matrícula</item>
+        <item>Ingresos externos</item>
+        <item>Ingresos totales</item>
+        <item>Número de horas de docencia</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Número de horas de seminario</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Número de horas de prácticas</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Número de horas de evaluación</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Elaboración de manuales docentes</item>
+        <item>Coste por crédito</item>
+        <item>Total</item>
+        <item>Tutorías presenciales y de trabajos finales</item>
+        <item>Coste por proyecto</item>
+        <item>Total</item>
+        <item>Tribunales para valoración de trabajos finales</item>
+        <item>Coste por tribunal</item>
+        <item>Total</item>
+        <item>Coordinación de exámenes</item>
+        <item>Coste por examen</item>
+        <item>Total</item>
+        <item>Directores</item>
+        <item>Coste por director</item>
+        <item>Coste total de profesorado de la ULPGC</item>
+        <item>Beneficios para la unidad organizadora</item>
+        <item>Total retribución bruta a profesorado de la ULPGC</item>
+        <item>Número de horas de docencia</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Número de horas de seminario</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Número de horas de prácticas</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Número de horas de evaluación</item>
+        <item>Coste por hora</item>
+        <item>Total</item>
+        <item>Elaboración de manuales docentes</item>
+        <item>Coste por crédito</item>
+        <item>Total</item>
+        <item>Tutorías presenciales y de trabajos finales</item>
+        <item>Coste por proyecto</item>
+        <item>Total</item>
+        <item>Tribunales para valoración de trabajos finales</item>
+        <item>Coste por tribunal</item>
+        <item>Total</item>
+        <item>Coordinación de exámenes</item>
+        <item>Coste por examen</item>
+        <item>Total</item>
+        <item>Otros</item>
+        <item>Concepto</item>
+        <item>Coste total de profesorado externo</item>
+        <item>Personal administrativo de apoyo al título</item>
+        <item>Coste</item>
+        <item>Total</item>
+        <item>Becarios de colaboración</item>
+        <item>Coste</item>
+        <item>Total</item>
+        <item>Becarios específicos</item>
+        <item>Coste</item>
+        <item>Total</item>
+        <item>Otro tipo de personal</item>
+        <item>Coste</item>
+        <item>Total</item>
+        <item>Elaboración de memoria de presentación</item>
+        <item>Memoria final</item>
+        <item>Punto de información</item>
+        <item>Otros</item>
+        <item>Concepto</item>
+        <item>Coste</item>
+        <item>Otros</item>
+        <item>Concepto</item>
+        <item>Coste</item>
+        <item>Locomoción de profesorado desplazado</item>
+        <item>Alojamiento de profesorado desplazado</item>
+        <item>Manutención de profesorado desplazado</item>
+        <item>Ayudas para estudiantes en prácticas</item>
+        <item>Otros gastos</item>
+        <item>Total</item>
+        <item>Material de oficina</item>
+        <item>Material de laboratorio</item>
+        <item>Material informático no inventariable</item>
+        <item>Reprografía</item>
+        <item>Otros</item>
+        <item>Total</item>
+        <item>Bibliografía</item>
+        <item>Otros</item>
+        <item>Total</item>
+        <item>Material impreso</item>
+        <item>Publicidad en prensa u otros medios</item>
+        <item>Total</item>
+        <item>Inauguración y/o clausura</item>
+        <item>Traducción simultánea o sucesiva</item>
+        <item>Certificados</item>
+        <item>Seguro Obligatorio</item>
+        <item>Evaluación del título por agencia externa</item>
+        <item>Campus Virtual</item>
+        <item>Otros</item>
+        <item>Total</item>
+    </string-array>
+    <string-array name="overviewExpenses">
+        <item>&lt;b&gt;Ingresos totales&lt;/b&gt;</item>
+        <item>&lt;b&gt;Suma de gastos parcial&lt;/b&gt;</item>
+        <item>&lt;b&gt;Compensación a la ULPGC (5%)&lt;/b&gt;</item>
+        <item>&lt;b&gt;Compensación al centro (5%)&lt;/b&gt;</item>
+        <item>&lt;b&gt;Compensación al gestor económico (5%)&lt;/b&gt;</item>
+        <item>&lt;b&gt;Total de Gastos&lt;/b&gt;</item>
+        <item>&lt;b&gt;Balance&lt;/b&gt;</item>
+    </string-array>
+    <string-array name="degree_teachers_info">
+        <item>aasm-state</item>
+        <item>teacher-id</item>
+        <item>last-notification-at</item>
+        <item>notifications-count</item>
+        <item>university-specific-degree-id</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="generic_teachers_info">
+        <item>name</item>
+        <item>last-name</item>
+        <item>degree</item>
+        <item>email</item>
+        <item>branch-of-knowledge</item>
+        <item>professional-category</item>
+        <item>graduate-in-ulpgc</item>
+        <item>department</item>
+        <item>institute</item>
+        <item>active</item>
+        <item>cv-abstract</item>
+        <item>dni</item>
+        <item>proposer-id</item>
+        <item>type</item>
+    </string-array>
+    <string-array name="info_generica_profesores">
+        <item>&lt;b&gt;Titulación:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;E-mail:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Rama de conocimiento:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Categoría profesional:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Titulado en la ULPGC:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Departamento de la ULPGC:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Entidad:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Activo:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Currículum Vitae:&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Tipo&lt;b&gt;</item>
+    </string-array>
+    <string-array name="subjects_info">
+        <item>name</item>
+        <item>course</item>
+        <item>semester</item>
+        <item>ects-credits</item>
+        <item>start-date</item>
+        <item>end-date</item>
+        <item>kind-id</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="info_asignaturas">
+        <item>Nombre</item>
+        <item>Curso</item>
+        <item>Semestre</item>
+        <item>Créditos ECTS</item>
+        <item>Inicio de docencia</item>
+        <item>Fin de docencia</item>
+        <item>Tipo de asignatura</item>
+        <item>Id</item>
+    </string-array>
+    <string-array name="complete_subject_info">
+        <item>name</item>
+        <item>course</item>
+        <item>semester</item>
+        <item>kind-id</item>
+        <item>ects-credits</item>
+        <item>start-date</item>
+        <item>end-date</item>
+        <item>branch-of-knowledge-id</item>
+        <item>mode-id</item>
+        <item>created-at</item>
+        <item>updated-at</item>
+        <item>class-hours</item>
+        <item>practice-hours</item>
+        <item>misc-activities-hours</item>
+        <item>external-practices-hours</item>
+        <item>exams-hours</item>
+        <item>final-work-hours</item>
+        <item>studying-hours</item>
+        <item>hours-sum</item>
+        <item>competences</item>
+        <item>activities</item>
+        <item>description</item>
+        <item>assesment-system</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="completeSubjectTags">
+        <item>Nombre</item>
+        <item>Curso</item>
+        <item>Semestre</item>
+        <item>Tipo de asignatura</item>
+        <item>Créditos ECTS</item>
+        <item>Inicio de docencia</item>
+        <item>Fin de docencia</item>
+        <item>Rama de conocimiento</item>
+        <item>Modalidad</item>
+        <item>Creado</item>
+        <item>Actualizado</item>
+        <item>Clases teóricas</item>
+        <item>Clases prácticas</item>
+        <item>Actividades docentes complementarias</item>
+        <item>Prácticas en empresas/instituciones</item>
+        <item>Pruebas de evaluación</item>
+        <item>Trabajo final</item>
+        <item>Dedicadas al estudio</item>
+        <item>Número de horas en total</item>
+        <item>Competencias</item>
+        <item>Actividades formativas</item>
+        <item>Descripción de los contenidos</item>
+        <item>Sistema de evaluación</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="report_info">
+        <item>message</item>
+    </string-array>
+    <string-array name="basic_information">
+        <item>name</item>
+        <item>code</item>
+        <item>lectures-start</item>
+        <item>degree-type-id</item>
+        <item>state</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="economic_tags">
+        <item>ulpgc-teaching-hours-qty</item>
+        <item>ulpgc-teaching-hours-cost</item>
+        <item>ulpgc-teaching-hours-sum</item>
+        <item>ulpgc-seminar-hours-qty</item>
+        <item>ulpgc-seminar-hours-cost</item>
+        <item>ulpgc-seminar-hours-sum</item>
+        <item>ulpgc-practice-hours-qty</item>
+        <item>ulpgc-practice-hours-cost</item>
+        <item>ulpgc-practice-hours-sum</item>
+        <item>ulpgc-evaluation-hours-qty</item>
+        <item>ulpgc-evaluation-hours-cost</item>
+        <item>ulpgc-evaluation-hours-sum</item>
+        <item>ulpgc-content-credits-qty</item>
+        <item>ulpgc-content-credits-cost</item>
+        <item>ulpgc-content-credits-sum</item>
+        <item>ulpgc-tutorship-jobs-qty</item>
+        <item>ulpgc-tutorship-jobs-cost</item>
+        <item>ulpgc-tutorship-jobs-sum</item>
+        <item>ulpgc-boards-qty</item>
+        <item>ulpgc-boards-cost</item>
+        <item>ulpgc-boards-sum</item>
+        <item>ulpgc-exams-coordination-qty</item>
+        <item>ulpgc-exams-coordination-cost</item>
+        <item>ulpgc-exams-coordination-sum</item>
+        <item>ulpgc-managers-qty</item>
+        <item>ulpgc-managers-cost</item>
+        <item>placeholder</item>
+        <item>ulpgc-teachers-cost-sum</item>
+        <item>placeholder</item>
+        <item>ulpgc-teachers-unit-profit</item>
+        <item>placeholder</item>
+        <item>ulpgc-teachers-gross</item>
+        <item>teaching-hours-qty</item>
+        <item>teaching-hours-cost</item>
+        <item>teaching-hours-sum</item>
+        <item>seminar-hours-qty</item>
+        <item>seminar-hours-cost</item>
+        <item>seminar-hours-sum</item>
+        <item>practice-hours-qty</item>
+        <item>practice-hours-cost</item>
+        <item>practice-hours-sum</item>
+        <item>evaluation-hours-qty</item>
+        <item>evaluation-hours-cost</item>
+        <item>evaluation-hours-sum</item>
+        <item>content-credits-qty</item>
+        <item>content-credits-cost</item>
+        <item>content-credits-sum</item>
+        <item>tutorship-jobs-qty</item>
+        <item>tutorship-jobs-cost</item>
+        <item>tutorship-jobs-sum</item>
+        <item>boards-qty</item>
+        <item>boards-cost</item>
+        <item>boards-sum</item>
+        <item>exams-coordination-qty</item>
+        <item>exams-coordination-cost</item>
+        <item>exams-coordination-sum</item>
+        <item>teachers-misc-cost</item>
+        <item>teachers-misc-description</item>
+        <item>placeholder</item>
+        <item>teachers-cost-sum</item>
+        <item>admin-staff-qty</item>
+        <item>admin-staff-cost</item>
+        <item>admin-staff-sum</item>
+        <item>scholar-qty</item>
+        <item>scholar-cost</item>
+        <item>scholar-sum</item>
+        <item>specific-scholar-qty</item>
+        <item>specific-scholar-cost</item>
+        <item>specific-scholar-sum</item>
+        <item>other-staff-qty</item>
+        <item>other-staff-cost</item>
+        <item>other-staff-sum</item>
+        <item>placeholder</item>
+        <item>presentation-report-cost</item>
+        <item>placeholder</item>
+        <item>final-report-cost</item>
+        <item>placeholder</item>
+        <item>information-point-cost</item>
+        <item>support-services-description</item>
+        <item>support-services-cost</item>
+        <item>admin-support-misc-description</item>
+        <item>admin-support-misc-cost</item>
+        <item>placeholder</item>
+        <item>locomotion-cost</item>
+        <item>placeholder</item>
+        <item>accommodation-cost</item>
+        <item>placeholder</item>
+        <item>maintenance-cost</item>
+        <item>placeholder</item>
+        <item>students-in-practice-cost</item>
+        <item>placeholder</item>
+        <item>other-locomotion-cost</item>
+        <item>placeholder</item>
+        <item>locomotion-sum</item>
+        <item>placeholder</item>
+        <item>office-goods-cost</item>
+        <item>placeholder</item>
+        <item>lab-goods-cost</item>
+        <item>placeholder</item>
+        <item>computer-goods-cost</item>
+        <item>placeholder</item>
+        <item>reprographics-cost</item>
+        <item>placeholder</item>
+        <item>financial-goods-misc-cost</item>
+        <item>placeholder</item>
+        <item>financial-goods-sum</item>
+        <item>placeholder</item>
+        <item>bibliography-cost</item>
+        <item>placeholder</item>
+        <item>other-bibliography-cost</item>
+        <item>placeholder</item>
+        <item>bibliography-sum</item>
+        <item>placeholder</item>
+        <item>printed-advertising-cost</item>
+        <item>placeholder</item>
+        <item>media-advertising-cost</item>
+        <item>placeholder</item>
+        <item>advertising-sum</item>
+        <item>placeholder</item>
+        <item>opening-closure-cost</item>
+        <item>placeholder</item>
+        <item>translation-cost</item>
+        <item>placeholder</item>
+        <item>certificates-cost</item>
+        <item>placeholder</item>
+        <item>Seguro Obligatorio</item>
+        <item>placeholder</item>
+        <item>Evaluación del título por agencia externa</item>
+        <item>placeholder</item>
+        <item>virtual-campus-cost</item>
+        <item>placeholder</item>
+        <item>misc-misc-cost</item>
+        <item>placeholder</item>
+        <item>other-costs-sum</item>
+        <item>placeholder</item>
+        <item>expenses-sum</item>
+    </string-array>
+    <string-array name="expensesTags">
+        <item>&lt;b&gt;Número de horas de docencia&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Número de horas de seminario&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Número de horas de prácticas&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Número de horas de evaluación&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Elaboración de manuales docentes&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por crédito&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Tutorías presenciales y de trabajos finales&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por proyecto&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Tribunales para valoración de trabajos finales&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por tribunal&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Coordinación de exámenes&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por examen&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Directores&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste de profesorado de la ULPGC&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Beneficios para la unidad organizadora&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total retribución bruta a profesorado de la ULPGC&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Número de horas de docencia&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Número de horas de seminario&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Número de horas de prácticas&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Número de horas de evaluación&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por hora&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Elaboración de manuales docentes&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por crédito&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Tutorías presenciales y de trabajos finales&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por proyecto&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Tribunales para valoración de trabajos finales&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por tribunal&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Coordinación de exámenes&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste por examen&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Otros. Concepto&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste de profesorado externo&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Personal administrativo de apoyo al título&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Becarios de colaboración&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Becarios específicos&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Otro tipo de personal&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;&lt;br/&gt;</item>
+        <item>&lt;b&gt;Elaboración de memoria de presentación&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Memoria final&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Punto de información&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Servicios de empresas de apoyo&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Otros&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Locomoción de profesorado desplazado&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Alojamiento de profesorado desplazado&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Manutención de profesorado desplazado&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Ayudas para estudiantes en prácticas&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Otros gastos&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Gastos en locomoción&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Material de oficina&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Material de laboratorio&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Material informático no inventariable&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Reprografía&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Otros&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Gastos de material&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Bibliografía&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Otros&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Gastos en bibliografía&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Material impreso&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Publicidad en prensa u otros medios&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Gastos en publicidad&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Inauguración y/o clausura&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Traducción simultánea o sucesiva&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Certificados&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Seguro Obligatorio&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Evaluación del título por agencia externa&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Campus Virtual&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Otros&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Apartado de otros gastos&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Coste&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Importe de partida de gastos&lt;/b&gt;&lt;br&gt;</item>
+        <item>&lt;b&gt;Total&lt;/b&gt;&lt;br&gt;</item>
+    </string-array>
+    <string-array name="periods">
+        <item>first-rectification-from-date</item>
+        <item>first-rectification-to-date</item>
+        <item>request-from-date</item>
+        <item>request-to-date</item>
+        <item>second-rectification-from-date</item>
+        <item>second-rectification-to-date</item>
+        <item>year</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="institutions">
+        <item>Centro de Formación Continua</item>
+        <item>Escuela de Arquitectura</item>
+        <item>Escuela de Ingeniería de Telecomunicación y Electrónica</item>
+        <item>Escuela de Ingeniería Informática</item>
+        <item>Escuela de Ingenierías Industriales y Civiles</item>
+        <item>Escuela Universitaria Adscrita de Turismo de Lanzarote</item>
+        <item>Estructura de Teleformación</item>
+        <item>Facultad de Ciencias de la Actividad Física y el Deporte</item>
+        <item>Facultad de Ciencias de La Salud</item>
+        <item>Facultad de Ciencias del Mar</item>
+        <item>Facultad de Ciencias Jurídicas</item>
+        <item>Facultad de Economía, Empresa y Turismo</item>
+        <item>Facultad de Filología</item>
+        <item>Facultad de Formación del Profesorado</item>
+        <item>Facultad de Geografía e Historia</item>
+        <item>Facultad de Traducción y Interpretación</item>
+        <item>Facultad de Veterinaria</item>
+        <item>FULP</item>
+        <item>Instituto para el desarrollo tecnológico y la innovación en comunicaciones</item>
+        <item>Instituto Universitario de Ciencias y Tecnologías Cibernéticas</item>
+        <item>Instituto Universitario de Microelectrónica Aplicada</item>
+        <item>Instituto Universitario de Oceanografía y Cambio Global</item>
+        <item>Instituto Universitario de Sanidad Animal y Seguridad Alimentaria</item>
+        <item>Instituto Universitario de Sistemas Inteligentes y Aplicaciones Numéricas en Ingeniería</item>
+        <item>Instituto Universitario de Turismo y Desarrollo Sostenible (TYDES)</item>
+    </string-array>
+    <string-array name="institutions_addresses">
+        <item>Juan de Quesada nº30
+CP 35001</item>
+        <item>Edificio Arquitectura
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Electrónica y Telecomunicación
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Informática y Matemáticas
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Ingenierías
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Centro Adscrito de Turismo de Lanzarote
+35507 - Teguise</item>
+        <item>Sede Institucional
+35001 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Educación Física
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Ciencias de la Salud
+35016 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Ciencias Básicas
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Ciencias Jurídicas
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio CC. Económicas y Empresariales
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Humanidades
+35003 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Formación del Profesorado
+35004 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Humanidades
+35003 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Humanidades
+35003 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Veterinaria
+35416 - Arucas</item>
+        <item>C/ Juan de Quesada, 30. Las Palmas de Gran Canaria, 35001</item>
+        <item>Parque Científico Tecnológico de la ULPGC
+Las Palmas (Spain)</item>
+        <item>Edificio Parque Científico Tecnológico
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Parque Científico Tecnológico
+35017 - Las Palmas de Gran Canaria</item>
+        <item>C/ Practicante Ignacio Rodríguez, s/n. Edificio Polivalente II del Campus Universitario de Tafira
+CP 35017 Las Palmas de Gran Canaria, España</item>
+        <item>Edificio Parque Científico Tecnológico
+35017 - Las Palmas de Gran Canaria</item>
+        <item>Edificio Parque Científico Tecnológico
+35017 - Las Palmas de Gran Canaria</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="institutions_id">
+        <item>24</item>
+        <item>1</item>
+        <item>2</item>
+        <item>14</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>9</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>22</item>
+        <item>18</item>
+        <item>19</item>
+        <item>25</item>
+        <item>21</item>
+        <item>20</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="institutions_location">
+        <item>Juan de Quesada nº30</item>
+        <item>Escuela de Arquitectura</item>
+        <item>Escuela de Ingeniería de Telecomunicación y Electrónica</item>
+        <item>Escuela de Ingeniería Informática</item>
+        <item>Escuela de Ingenierías Industriales y Civiles</item>
+        <item>Escuela Universitaria Adscrita de Turismo de Lanzarote</item>
+        <item>Estructura de Teleformación</item>
+        <item>Facultad de Ciencias de la Actividad Física y el Deporte</item>
+        <item>Facultad de Ciencias de La Salud</item>
+        <item>Facultad de Ciencias del Mar</item>
+        <item>Facultad de Ciencias Jurídicas</item>
+        <item>Facultad de Economía, Empresa y Turismo</item>
+        <item>Facultad de Filología</item>
+        <item>Facultad de Formación del Profesorado</item>
+        <item>Facultad de Geografía e Historia</item>
+        <item>Facultad de Traducción y Interpretación</item>
+        <item>Facultad de Veterinaria</item>
+        <item>Fundación Universitaria</item>
+        <item>Instituto para el desarrollo tecnológico y la innovación en comunicaciones</item>
+        <item>Instituto Universitario de Ciencias y Tecnologías Cibernéticas</item>
+        <item>Instituto Universitario de Microelectrónica Aplicada</item>
+        <item>Edificio Polivalente II del Campus Universitario de Tafira</item>
+        <item>Instituto Universitario de Sanidad Animal y Seguridad Alimentaria</item>
+        <item>Instituto Universitario de Sistemas Inteligentes y Aplicaciones Numéricas en Ingeniería</item>
+        <item>Instituto Universitario de Turismo y Desarrollo Sostenible (TYDES)</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colours"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_degree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/mybutton_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_border"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90" />
+
+        <View
+            android:id="@+id/firstDivider"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#3A4978" />
+
+        <TextView
+            android:id="@+id/textView_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_border"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_edition"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90" />
+
+        <View
+            android:id="@+id/secondDivider"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#3A4978" />
+
+        <TextView
+            android:id="@+id/textView_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90" />
+    </LinearLayout>
+
+</LinearLayout>
